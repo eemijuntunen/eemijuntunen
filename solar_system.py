@@ -159,8 +159,7 @@ def satellite_swarm(cx, cy, r, count=20):
     return s
 
 def wormhole_portal(x, y, link_url):
-    s = f'<a href="{link_url}" target="_blank">\n'
-    # Swirling rings
+    s = f'<a xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{link_url}" target="_blank">\n'
     for j in range(4):
         r = 18 - j * 3
         dur = 3 + j * 0.5
@@ -169,38 +168,11 @@ def wormhole_portal(x, y, link_url):
         s += f'<animateTransform attributeName="transform" type="rotate" from="0 {x} {y}" to="{"360" if j%2==0 else "-360"} {x} {y}" dur="{dur:.1f}s" repeatCount="indefinite"/>'
         s += f'<animate attributeName="r" values="{r};{r+2};{r}" dur="{dur+1:.1f}s" repeatCount="indefinite"/>'
         s += f'</circle>\n'
-    # Core glow
     s += f'<circle cx="{x}" cy="{y}" r="6" fill="#8338ec" opacity="0.3" filter="url(#glow)">'
     s += f'<animate attributeName="r" values="4;8;4" dur="2s" repeatCount="indefinite"/></circle>'
     s += f'<circle cx="{x}" cy="{y}" r="3" fill="#c0a0ff" opacity="0.5"/>'
-    # Label
     s += f'<text x="{x}" y="{y + 28}" text-anchor="middle" fill="#8338ec" font-size="7" opacity="0.6">explore ↗</text>'
     s += f'</a>\n'
-    return s
-
-def hover_cards(repos, pr_list, color_list):
-    """CSS hover styles for planet tooltips."""
-    css = "<style>\n"
-    css += ".planet-group .hover-card { opacity: 0; transition: opacity 0.3s; pointer-events: none; }\n"
-    css += ".planet-group:hover .hover-card { opacity: 1; }\n"
-    css += ".planet-group { cursor: pointer; }\n"
-    css += "</style>\n"
-    return css
-
-def hover_card_svg(repo, pr, color):
-    """Tooltip card drawn at local origin, shown on hover."""
-    cw, ch = 130, 58
-    x, y = -cw/2, -pr - ch - 20
-    lang = repo.get("language", "?")
-    forks = repo.get("forks_count", 0)
-    issues = repo["open_issues_count"]
-    s = f'<g class="hover-card">'
-    s += f'<rect x="{x:.0f}" y="{y:.0f}" width="{cw}" height="{ch}" rx="8" fill="#0a1628" stroke="{color}" stroke-width="0.8" opacity="0.95"/>'
-    s += f'<text x="0" y="{y+16:.0f}" text-anchor="middle" fill="#e0f0ff" font-size="8" font-weight="bold">{repo["name"][:20]}</text>'
-    s += f'<text x="0" y="{y+30:.0f}" text-anchor="middle" fill="#5a7a9a" font-size="7">{lang} · {issues} issues · {forks} forks</text>'
-    pushed = repo.get("pushed_at", "")[:10]
-    s += f'<text x="0" y="{y+43:.0f}" text-anchor="middle" fill="#3a5a7a" font-size="7">last push: {pushed}</text>'
-    s += f'</g>'
     return s
 
 # ── MAIN GENERATE ──
@@ -226,8 +198,7 @@ def generate(repos):
     <filter id="nebula"><feGaussianBlur stdDeviation="50"/></filter>
   </defs>'''
 
-    # Hover CSS
-    css = hover_cards(repos, [], [])
+    # No hover CSS needed (GitHub strips <style>)
 
     bg = f'<rect width="{w}" height="{h}" rx="16" fill="#03060d"/>'
     bg += starfield(w, h, 140)
@@ -272,21 +243,19 @@ def generate(repos):
         orbits += f'<circle cx="{cx}" cy="{cy}" r="{orbit_r}" fill="none" stroke="#1a2a44" stroke-width="0.5" opacity="0.3"/>\n'
 
         psv = planet_style(i, pr, color)
-        hcard = hover_card_svg(r, pr, color)
 
-        planets += f'''<g class="planet-group">
+        planets += f'''<g>
   <animateMotion dur="{dur}s" repeatCount="indefinite" begin="-{begin:.1f}s" rotate="0" path="{path}"/>
   {psv}
   <text x="0" y="{pr+16}" text-anchor="middle" fill="#a0b8d0" font-size="8" font-weight="600">{r["name"][:18]}</text>
   <text x="0" y="{pr+27}" text-anchor="middle" fill="{color}" font-size="8" font-weight="bold">&#9733; {fmt(r["stargazers_count"])}</text>
-  {hcard}
 </g>\n'''
 
     # Wormhole portal (bottom right)
     wormhole = wormhole_portal(w - 50, h - 60, "https://github.com/opensearch-project")
 
     title = (f'<text x="{cx}" y="30" text-anchor="middle" fill="#e0f0ff" font-size="17" font-weight="bold" letter-spacing="1">OpenSearch Solar System</text>'
-             f'<text x="{cx}" y="48" text-anchor="middle" fill="#3a6a8a" font-size="10">Repos orbit by activity · Planet size = stars · Color = language · Hover for details</text>')
+             f'<text x="{cx}" y="48" text-anchor="middle" fill="#3a6a8a" font-size="10">Repos orbit by activity · Planet size = stars · Color = language</text>')
 
     ly = h - 40
     leg = ""
@@ -303,7 +272,7 @@ def generate(repos):
     footer = f'<text x="{cx}" y="{h-12}" text-anchor="middle" fill="#1a2a3a" font-size="8">{now_str()}</text>'
 
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">
-  {defs}{css}{bg}{title}{constellations}{belt}{orbits}{sun}{satellites}{comets}{planets}{wormhole}{leg}{footer}
+  {defs}{bg}{title}{constellations}{belt}{orbits}{sun}{satellites}{comets}{planets}{wormhole}{leg}{footer}
 </svg>'''
 
 if __name__ == "__main__":
