@@ -175,6 +175,60 @@ def wormhole_portal(x, y, link_url):
     s += f'</a>\n'
     return s
 
+def space_station(cx, cy, orbit_r, dur=30):
+    """ISS-like shape orbiting — represents the OpenSearch UI team."""
+    path = circle_path(cx, cy, orbit_r)
+    # Station shape: central module + solar panels
+    station = '''<g>
+  <rect x="-3" y="-2" width="6" height="4" rx="1" fill="#c0d0e0" opacity="0.9"/>
+  <rect x="-12" y="-1" width="8" height="2" rx="0.5" fill="#3a86ff" opacity="0.7"/>
+  <rect x="4" y="-1" width="8" height="2" rx="0.5" fill="#3a86ff" opacity="0.7"/>
+  <rect x="-1" y="-6" width="2" height="4" rx="0.5" fill="#8899aa" opacity="0.6"/>
+  <rect x="-1" y="2" width="2" height="4" rx="0.5" fill="#8899aa" opacity="0.6"/>
+  <circle cx="0" cy="0" r="1" fill="#00e5ff" opacity="0.8"/>
+  <text x="0" y="14" text-anchor="middle" fill="#00e5ff" font-size="7" font-weight="bold" opacity="0.8">OpenSearch UI</text>
+</g>'''
+    return f'''<g>
+  <animateMotion dur="{dur}s" repeatCount="indefinite" rotate="0" path="{path}"/>
+  {station}
+</g>
+<circle cx="{cx}" cy="{cy}" r="{orbit_r}" fill="none" stroke="#00e5ff" stroke-width="0.4" opacity="0.15" stroke-dasharray="3,6"/>\n'''
+
+def binary_star(cx, cy):
+    """Two stars orbiting each other at the center — OpenSearch core + Dashboards."""
+    orbit_r = 16
+    dur = 8
+    path1 = circle_path(cx, cy, orbit_r)
+    path2 = circle_path(cx, cy, orbit_r)
+
+    s = ''
+    # Shared glow
+    s += f'<circle cx="{cx}" cy="{cy}" r="50" fill="#ff9f1c" opacity="0.06" filter="url(#sunGlow)"/>'
+    s += f'<circle cx="{cx}" cy="{cy}" r="30" fill="#ffe066" opacity="0.04" filter="url(#sunGlow)"/>'
+
+    # Star 1: OpenSearch core (warm orange)
+    s += f'''<g>
+  <animateMotion dur="{dur}s" repeatCount="indefinite" begin="0s" rotate="0" path="{path1}"/>
+  <circle cx="0" cy="0" r="22" fill="#ff9f1c" opacity="0.06" filter="url(#glow)"/>
+  <circle cx="0" cy="0" r="14" fill="url(#sun)" filter="url(#glow)">
+    <animate attributeName="r" values="14;15;14" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <text x="0" y="-18" text-anchor="middle" fill="#ffe066" font-size="6.5" font-weight="bold">Core</text>
+</g>\n'''
+
+    # Star 2: Dashboards (blue-cyan) — offset by half the orbit
+    s += f'''<g>
+  <animateMotion dur="{dur}s" repeatCount="indefinite" begin="-{dur/2}s" rotate="0" path="{path2}"/>
+  <circle cx="0" cy="0" r="20" fill="#00b4d8" opacity="0.06" filter="url(#glow)"/>
+  <circle cx="0" cy="0" r="12" fill="#00b4d8" filter="url(#glow)">
+    <animate attributeName="r" values="12;13;12" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="-3" cy="-3" r="4" fill="#fff" opacity="0.08"/>
+  <text x="0" y="-16" text-anchor="middle" fill="#00e5ff" font-size="6.5" font-weight="bold">Dashboards</text>
+</g>\n'''
+
+    return s
+
 # ── MAIN GENERATE ──
 
 def generate(repos):
@@ -222,12 +276,12 @@ def generate(repos):
     # Comet trails
     comets = comet_trails(cx, cy, w, h, 3)
 
-    # Sun
-    sun = (f'<circle cx="{cx}" cy="{cy}" r="50" fill="#ff9f1c" opacity="0.08" filter="url(#sunGlow)"/>'
-           f'<circle cx="{cx}" cy="{cy}" r="36" fill="url(#sun)" filter="url(#glow)">'
-           f'<animate attributeName="r" values="36;38;36" dur="3s" repeatCount="indefinite"/></circle>'
-           f'<text x="{cx}" y="{cy-4}" text-anchor="middle" fill="#fff" font-size="10" font-weight="bold">OpenSearch</text>'
-           f'<text x="{cx}" y="{cy+10}" text-anchor="middle" fill="#ffe066" font-size="7" letter-spacing="2">PROJECT</text>')
+    # Binary star system (replaces single sun)
+    sun = binary_star(cx, cy)
+
+    # Space station orbiting between inner planets
+    station_orbit = 68  # just inside the first planet orbit
+    station = space_station(cx, cy, station_orbit, dur=25)
 
     orbits = ""
     planets = ""
@@ -272,7 +326,7 @@ def generate(repos):
     footer = f'<text x="{cx}" y="{h-12}" text-anchor="middle" fill="#1a2a3a" font-size="8">{now_str()}</text>'
 
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">
-  {defs}{bg}{title}{constellations}{belt}{orbits}{sun}{satellites}{comets}{planets}{wormhole}{leg}{footer}
+  {defs}{bg}{title}{constellations}{belt}{orbits}{sun}{station}{satellites}{comets}{planets}{wormhole}{leg}{footer}
 </svg>'''
 
 if __name__ == "__main__":
