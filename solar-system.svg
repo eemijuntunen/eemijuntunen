@@ -183,13 +183,13 @@
 <circle cx="154" cy="280" r="2" fill="#fff" opacity="0">
   <animate attributeName="opacity" values="0;0;1;0" keyTimes="0;0.7;0.85;1" dur="11.4s" begin="11.0s" repeatCount="indefinite"/>
 </circle>
-<text x="360" y="30" text-anchor="middle" fill="#e0f0ff" font-size="17" font-weight="bold" letter-spacing="1">OpenSearch Solar System</text><text x="360" y="48" text-anchor="middle" fill="#3a6a8a" font-size="10">Repos orbit by activity · Planet size = stars · Color = language</text><path d="M307,300 Q294,226 281,185" fill="none" stroke="#f89820" stroke-width="0.5" opacity="0.12" stroke-dasharray="4,4"/>
-<path d="M249,517 Q211,512 186,494" fill="none" stroke="#f89820" stroke-width="0.5" opacity="0.12" stroke-dasharray="4,4"/>
-<path d="M498,189 Q525,213 566,221" fill="none" stroke="#f89820" stroke-width="0.5" opacity="0.12" stroke-dasharray="4,4"/>
-<path d="M301,601 Q270,623 204,621" fill="none" stroke="#f89820" stroke-width="0.5" opacity="0.12" stroke-dasharray="4,4"/>
-<path d="M257,327 Q251,297 249,282" fill="none" stroke="#3178c6" stroke-width="0.5" opacity="0.12" stroke-dasharray="4,4"/>
-<path d="M300,482 Q234,537 131,601" fill="none" stroke="#3178c6" stroke-width="0.5" opacity="0.12" stroke-dasharray="4,4"/>
-<path d="M197,345 Q170,306 105,255" fill="none" stroke="#555" stroke-width="0.5" opacity="0.12" stroke-dasharray="4,4"/>
+<text x="360" y="30" text-anchor="middle" fill="#e0f0ff" font-size="17" font-weight="bold" letter-spacing="1">OpenSearch Solar System</text><text x="360" y="48" text-anchor="middle" fill="#3a6a8a" font-size="10">Repos orbit by activity · Planet size = stars · Color = language</text><path d="M307,300 Q311,264 316,262" fill="none" stroke="#f89820" stroke-width="0.5" opacity="0.12" stroke-dasharray="4,4"/>
+<path d="M298,448 Q268,452 252,443" fill="none" stroke="#f89820" stroke-width="0.5" opacity="0.12" stroke-dasharray="4,4"/>
+<path d="M445,254 Q464,269 496,268" fill="none" stroke="#f89820" stroke-width="0.5" opacity="0.12" stroke-dasharray="4,4"/>
+<path d="M321,519 Q287,571 218,597" fill="none" stroke="#f89820" stroke-width="0.5" opacity="0.12" stroke-dasharray="4,4"/>
+<path d="M98,275 Q103,222 112,185" fill="none" stroke="#f89820" stroke-width="0.5" opacity="0.12" stroke-dasharray="4,4"/>
+<path d="M275,532 Q260,522 208,519" fill="none" stroke="#3178c6" stroke-width="0.5" opacity="0.12" stroke-dasharray="4,4"/>
+<path d="M113,337 Q103,292 53,233" fill="none" stroke="#555" stroke-width="0.5" opacity="0.12" stroke-dasharray="4,4"/>
 <circle cx="176" cy="310" r="0.8" fill="#8899aa" opacity="0.24">
   <animateTransform attributeName="transform" type="rotate" from="0 360 360" to="360 360 360" dur="171s" repeatCount="indefinite"/>
 </circle>
@@ -463,63 +463,63 @@
 </g>
 <g>
   <animateMotion dur="40s" repeatCount="indefinite" begin="-13.2s" rotate="0" path="M440,360 A80,80 0 1,1 280,360 A80,80 0 1,1 440,360"/>
-  <circle cx="0" cy="0" r="9.661538461538461" fill="#f89820" opacity="0.85" filter="url(#glow)"/><rect x="-8" y="-6" width="17" height="3" rx="1.5" fill="#fff" opacity="0.08"/><rect x="-10" y="-3" width="19" height="3" rx="1.5" fill="#fff" opacity="0.08"/><rect x="-9" y="0" width="19" height="3" rx="1.5" fill="#fff" opacity="0.08"/><rect x="-8" y="4" width="16" height="3" rx="1.5" fill="#fff" opacity="0.08"/><circle cx="-2" cy="-2" r="3" fill="#fff" opacity="0.1"/>
-  <text x="0" y="25.661538461538463" text-anchor="middle" fill="#a0b8d0" font-size="8" font-weight="600">k-NN</text>
-  <text x="0" y="36.66153846153846" text-anchor="middle" fill="#f89820" font-size="8" font-weight="bold">&#9733; 216</text>
+  <circle cx="0" cy="0" r="13.407407407407408" fill="#f89820" opacity="0.85" filter="url(#glow)"/><rect x="-12" y="-8" width="23" height="3" rx="1.5" fill="#fff" opacity="0.08"/><rect x="-13" y="-4" width="27" height="3" rx="1.5" fill="#fff" opacity="0.08"/><rect x="-13" y="1" width="26" height="3" rx="1.5" fill="#fff" opacity="0.08"/><rect x="-11" y="6" width="22" height="3" rx="1.5" fill="#fff" opacity="0.08"/><circle cx="-3" cy="-3" r="4" fill="#fff" opacity="0.1"/>
+  <text x="0" y="29.40740740740741" text-anchor="middle" fill="#a0b8d0" font-size="8" font-weight="600">opensearch-migrati</text>
+  <text x="0" y="40.407407407407405" text-anchor="middle" fill="#f89820" font-size="8" font-weight="bold">&#9733; 73</text>
 </g>
 <g>
   <animateMotion dur="55s" repeatCount="indefinite" begin="-6.7s" rotate="0" path="M468,360 A108,108 0 1,1 252,360 A108,108 0 1,1 468,360"/>
-  <circle cx="0" cy="0" r="8.423076923076923" fill="#3178c6" opacity="0.85" filter="url(#glow)"/><ellipse cx="0" cy="0" rx="15" ry="3" fill="none" stroke="#3178c6" stroke-width="2.5" opacity="0.4"/><ellipse cx="0" cy="0" rx="17" ry="3" fill="none" stroke="#3178c6" stroke-width="1" opacity="0.2"/><circle cx="-2" cy="-2" r="3" fill="#fff" opacity="0.1"/>
-  <text x="0" y="24.423076923076923" text-anchor="middle" fill="#a0b8d0" font-size="8" font-weight="600">oui</text>
-  <text x="0" y="35.42307692307692" text-anchor="middle" fill="#3178c6" font-size="8" font-weight="bold">&#9733; 55</text>
+  <circle cx="0" cy="0" r="19.925925925925924" fill="#f89820" opacity="0.85" filter="url(#glow)"/><ellipse cx="0" cy="0" rx="36" ry="7" fill="none" stroke="#f89820" stroke-width="2.5" opacity="0.4"/><ellipse cx="0" cy="0" rx="40" ry="8" fill="none" stroke="#f89820" stroke-width="1" opacity="0.2"/><circle cx="-5" cy="-5" r="6" fill="#fff" opacity="0.1"/>
+  <text x="0" y="35.925925925925924" text-anchor="middle" fill="#a0b8d0" font-size="8" font-weight="600">spring-data-opense</text>
+  <text x="0" y="46.925925925925924" text-anchor="middle" fill="#f89820" font-size="8" font-weight="bold">&#9733; 161</text>
 </g>
 <g>
   <animateMotion dur="70s" repeatCount="indefinite" begin="-24.8s" rotate="0" path="M496,360 A136,136 0 1,1 224,360 A136,136 0 1,1 496,360"/>
-  <circle cx="0" cy="0" r="8.176923076923076" fill="#3178c6" opacity="0.85" filter="url(#glow)"/><circle cx="-2.5" cy="-1.6" r="1.5" fill="#000" opacity="0.15"/><circle cx="2.0" cy="1.2" r="1.0" fill="#000" opacity="0.15"/><circle cx="-0.8" cy="2.9" r="0.8" fill="#000" opacity="0.15"/><circle cx="2.9" cy="-2.5" r="0.7" fill="#000" opacity="0.15"/><circle cx="-2" cy="-2" r="2" fill="#fff" opacity="0.1"/>
-  <text x="0" y="24.176923076923075" text-anchor="middle" fill="#a0b8d0" font-size="8" font-weight="600">agent-health</text>
-  <text x="0" y="35.176923076923075" text-anchor="middle" fill="#3178c6" font-size="8" font-weight="bold">&#9733; 23</text>
+  <circle cx="0" cy="0" r="8.518518518518519" fill="#f89820" opacity="0.85" filter="url(#glow)"/><circle cx="-2.6" cy="-1.7" r="1.5" fill="#000" opacity="0.15"/><circle cx="2.1" cy="1.3" r="1.0" fill="#000" opacity="0.15"/><circle cx="-0.9" cy="3.0" r="0.9" fill="#000" opacity="0.15"/><circle cx="3.0" cy="-2.6" r="0.7" fill="#000" opacity="0.15"/><circle cx="-2" cy="-2" r="3" fill="#fff" opacity="0.1"/>
+  <text x="0" y="24.51851851851852" text-anchor="middle" fill="#a0b8d0" font-size="8" font-weight="600">opensearch-remote-</text>
+  <text x="0" y="35.51851851851852" text-anchor="middle" fill="#f89820" font-size="8" font-weight="bold">&#9733; 7</text>
 </g>
 <g>
   <animateMotion dur="85s" repeatCount="indefinite" begin="-56.6s" rotate="0" path="M524,360 A164,164 0 1,1 196,360 A164,164 0 1,1 524,360"/>
-  <circle cx="0" cy="0" r="14.192307692307692" fill="#ff006e" opacity="0.1"><animate attributeName="r" values="12.192307692307692;18.192307692307693;12.192307692307692" dur="2s" repeatCount="indefinite"/></circle><circle cx="0" cy="0" r="8.192307692307692" fill="#ff006e" opacity="0.9" filter="url(#glow)"/><circle cx="-2" cy="-2" r="2" fill="#fff" opacity="0.1"/>
-  <text x="0" y="24.192307692307693" text-anchor="middle" fill="#a0b8d0" font-size="8" font-weight="600">observability-stac</text>
-  <text x="0" y="35.19230769230769" text-anchor="middle" fill="#ff006e" font-size="8" font-weight="bold">&#9733; 25</text>
+  <circle cx="0" cy="0" r="30.0" fill="#f89820" opacity="0.1"><animate attributeName="r" values="28.0;34.0;28.0" dur="2s" repeatCount="indefinite"/></circle><circle cx="0" cy="0" r="24.0" fill="#f89820" opacity="0.9" filter="url(#glow)"/><circle cx="-6" cy="-6" r="7" fill="#fff" opacity="0.1"/>
+  <text x="0" y="40.0" text-anchor="middle" fill="#a0b8d0" font-size="8" font-weight="600">k-NN</text>
+  <text x="0" y="51.0" text-anchor="middle" fill="#f89820" font-size="8" font-weight="bold">&#9733; 216</text>
 </g>
 <g>
   <animateMotion dur="100s" repeatCount="indefinite" begin="-75.0s" rotate="0" path="M552,360 A192,192 0 1,1 168,360 A192,192 0 1,1 552,360"/>
-  <circle cx="0" cy="0" r="8.053846153846154" fill="#f89820" opacity="0.75" filter="url(#glow)"/><line x1="3.2" y1="0.0" x2="6.5" y2="2.0" stroke="#fff" stroke-width="0.5" opacity="0.2"/><line x1="1.6" y1="2.8" x2="1.5" y2="6.7" stroke="#fff" stroke-width="0.5" opacity="0.2"/><line x1="-1.6" y1="2.8" x2="-5.0" y2="4.7" stroke="#fff" stroke-width="0.5" opacity="0.2"/><line x1="-3.2" y1="0.0" x2="-6.5" y2="-2.0" stroke="#fff" stroke-width="0.5" opacity="0.2"/><line x1="-1.6" y1="-2.8" x2="-1.5" y2="-6.7" stroke="#fff" stroke-width="0.5" opacity="0.2"/><line x1="1.6" y1="-2.8" x2="5.0" y2="-4.7" stroke="#fff" stroke-width="0.5" opacity="0.2"/><circle cx="-2" cy="-2" r="2" fill="#fff" opacity="0.1"/>
-  <text x="0" y="24.053846153846152" text-anchor="middle" fill="#a0b8d0" font-size="8" font-weight="600">opensearch-remote-</text>
-  <text x="0" y="35.05384615384615" text-anchor="middle" fill="#f89820" font-size="8" font-weight="bold">&#9733; 7</text>
+  <circle cx="0" cy="0" r="12.074074074074074" fill="#3178c6" opacity="0.75" filter="url(#glow)"/><line x1="4.8" y1="0.0" x2="9.8" y2="3.0" stroke="#fff" stroke-width="0.5" opacity="0.2"/><line x1="2.4" y1="4.2" x2="2.3" y2="10.0" stroke="#fff" stroke-width="0.5" opacity="0.2"/><line x1="-2.4" y1="4.2" x2="-7.5" y2="7.0" stroke="#fff" stroke-width="0.5" opacity="0.2"/><line x1="-4.8" y1="0.0" x2="-9.8" y2="-3.0" stroke="#fff" stroke-width="0.5" opacity="0.2"/><line x1="-2.4" y1="-4.2" x2="-2.3" y2="-10.0" stroke="#fff" stroke-width="0.5" opacity="0.2"/><line x1="2.4" y1="-4.2" x2="7.5" y2="-7.0" stroke="#fff" stroke-width="0.5" opacity="0.2"/><circle cx="-3" cy="-3" r="4" fill="#fff" opacity="0.1"/>
+  <text x="0" y="28.074074074074076" text-anchor="middle" fill="#a0b8d0" font-size="8" font-weight="600">oui</text>
+  <text x="0" y="39.074074074074076" text-anchor="middle" fill="#3178c6" font-size="8" font-weight="bold">&#9733; 55</text>
 </g>
 <g>
   <animateMotion dur="115s" repeatCount="indefinite" begin="-99.8s" rotate="0" path="M580,360 A220,220 0 1,1 140,360 A220,220 0 1,1 580,360"/>
-  <circle cx="0" cy="0" r="8.446153846153846" fill="#f89820" opacity="0.85" filter="url(#glow)"/><line x1="-3.4" y1="-2.5" x2="0.8" y2="3.4" stroke="#ffe066" stroke-width="1" opacity="0.4" stroke-linecap="round"/><line x1="0.8" y1="-4.2" x2="2.5" y2="1.7" stroke="#ffe066" stroke-width="1" opacity="0.4" stroke-linecap="round"/><line x1="-1.7" y1="0.8" x2="3.4" y2="3.8" stroke="#ffe066" stroke-width="1" opacity="0.4" stroke-linecap="round"/><circle cx="-2" cy="-2" r="3" fill="#fff" opacity="0.1"/>
-  <text x="0" y="24.446153846153848" text-anchor="middle" fill="#a0b8d0" font-size="8" font-weight="600">flow-framework</text>
-  <text x="0" y="35.44615384615385" text-anchor="middle" fill="#f89820" font-size="8" font-weight="bold">&#9733; 58</text>
+  <circle cx="0" cy="0" r="9.703703703703704" fill="#3178c6" opacity="0.85" filter="url(#glow)"/><line x1="-3.9" y1="-2.9" x2="1.0" y2="3.9" stroke="#ffe066" stroke-width="1" opacity="0.4" stroke-linecap="round"/><line x1="1.0" y1="-4.9" x2="2.9" y2="1.9" stroke="#ffe066" stroke-width="1" opacity="0.4" stroke-linecap="round"/><line x1="-1.9" y1="1.0" x2="3.9" y2="4.4" stroke="#ffe066" stroke-width="1" opacity="0.4" stroke-linecap="round"/><circle cx="-2" cy="-2" r="3" fill="#fff" opacity="0.1"/>
+  <text x="0" y="25.703703703703702" text-anchor="middle" fill="#a0b8d0" font-size="8" font-weight="600">agent-health</text>
+  <text x="0" y="36.7037037037037" text-anchor="middle" fill="#3178c6" font-size="8" font-weight="bold">&#9733; 23</text>
 </g>
 <g>
   <animateMotion dur="130s" repeatCount="indefinite" begin="-93.7s" rotate="0" path="M608,360 A248,248 0 1,1 112,360 A248,248 0 1,1 608,360"/>
-  <circle cx="0" cy="0" r="8.261538461538462" fill="#f89820" opacity="0.85" filter="url(#glow)"/><circle r="2" fill="#c0d0e0" opacity="0.7"><animateMotion dur="6s" repeatCount="indefinite" rotate="0" path="M16.261538461538464,0 A16.261538461538464,16.261538461538464 0 1,1 -16.261538461538464,0 A16.261538461538464,16.261538461538464 0 1,1 16.261538461538464,0"/></circle><circle cx="-2" cy="-2" r="2" fill="#fff" opacity="0.1"/>
-  <text x="0" y="24.261538461538464" text-anchor="middle" fill="#a0b8d0" font-size="8" font-weight="600">opensearch-sdk-jav</text>
-  <text x="0" y="35.261538461538464" text-anchor="middle" fill="#f89820" font-size="8" font-weight="bold">&#9733; 34</text>
+  <circle cx="0" cy="0" r="9.851851851851851" fill="#3a86ff" opacity="0.85" filter="url(#glow)"/><circle r="2" fill="#c0d0e0" opacity="0.7"><animateMotion dur="6s" repeatCount="indefinite" rotate="0" path="M17.85185185185185,0 A17.85185185185185,17.85185185185185 0 1,1 -17.85185185185185,0 A17.85185185185185,17.85185185185185 0 1,1 17.85185185185185,0"/></circle><circle cx="-2" cy="-2" r="3" fill="#fff" opacity="0.1"/>
+  <text x="0" y="25.85185185185185" text-anchor="middle" fill="#a0b8d0" font-size="8" font-weight="600">observability-stac</text>
+  <text x="0" y="36.85185185185185" text-anchor="middle" fill="#3a86ff" font-size="8" font-weight="bold">&#9733; 25</text>
 </g>
 <g>
   <animateMotion dur="145s" repeatCount="indefinite" begin="-140.4s" rotate="0" path="M636,360 A276,276 0 1,1 84,360 A276,276 0 1,1 636,360"/>
-  <circle cx="0" cy="0" r="8.138461538461538" fill="#06d6a0" opacity="0.8" filter="url(#glow)"/><polygon points="5.7,0.0 2.8,4.9 -2.8,4.9 -5.7,0.0 -2.8,-4.9 2.8,-4.9" fill="none" stroke="#fff" stroke-width="0.8" opacity="0.2"/><circle cx="-2" cy="-2" r="2" fill="#fff" opacity="0.1"/>
-  <text x="0" y="24.138461538461538" text-anchor="middle" fill="#a0b8d0" font-size="8" font-weight="600">opensearch-dashboa</text>
-  <text x="0" y="35.13846153846154" text-anchor="middle" fill="#06d6a0" font-size="8" font-weight="bold">&#9733; 18</text>
+  <circle cx="0" cy="0" r="12.296296296296298" fill="#f89820" opacity="0.8" filter="url(#glow)"/><polygon points="8.6,0.0 4.3,7.5 -4.3,7.5 -8.6,0.0 -4.3,-7.5 4.3,-7.5" fill="none" stroke="#fff" stroke-width="0.8" opacity="0.2"/><circle cx="-3" cy="-3" r="4" fill="#fff" opacity="0.1"/>
+  <text x="0" y="28.296296296296298" text-anchor="middle" fill="#a0b8d0" font-size="8" font-weight="600">flow-framework</text>
+  <text x="0" y="39.2962962962963" text-anchor="middle" fill="#f89820" font-size="8" font-weight="bold">&#9733; 58</text>
 </g>
 <g>
   <animateMotion dur="160s" repeatCount="indefinite" begin="-96.1s" rotate="0" path="M664,360 A304,304 0 1,1 56,360 A304,304 0 1,1 664,360"/>
-  <circle cx="0" cy="0" r="8.146153846153846" fill="#f89820" opacity="0.85" filter="url(#glow)"/><ellipse cx="1.6292307692307693" cy="-0.8146153846153846" rx="2.8511538461538457" ry="1.6292307692307693" fill="#fff" opacity="0.1"><animateTransform attributeName="transform" type="rotate" from="0 1.6292307692307693 -0.8146153846153846" to="360 1.6292307692307693 -0.8146153846153846" dur="8s" repeatCount="indefinite"/></ellipse><circle cx="-2" cy="-2" r="2" fill="#fff" opacity="0.1"/>
-  <text x="0" y="24.146153846153844" text-anchor="middle" fill="#a0b8d0" font-size="8" font-weight="600">skills</text>
-  <text x="0" y="35.146153846153844" text-anchor="middle" fill="#f89820" font-size="8" font-weight="bold">&#9733; 19</text>
+  <circle cx="0" cy="0" r="10.518518518518519" fill="#f89820" opacity="0.85" filter="url(#glow)"/><ellipse cx="2.103703703703704" cy="-1.051851851851852" rx="3.6814814814814816" ry="2.103703703703704" fill="#fff" opacity="0.1"><animateTransform attributeName="transform" type="rotate" from="0 2.103703703703704 -1.051851851851852" to="360 2.103703703703704 -1.051851851851852" dur="8s" repeatCount="indefinite"/></ellipse><circle cx="-3" cy="-3" r="3" fill="#fff" opacity="0.1"/>
+  <text x="0" y="26.51851851851852" text-anchor="middle" fill="#a0b8d0" font-size="8" font-weight="600">opensearch-sdk-jav</text>
+  <text x="0" y="37.51851851851852" text-anchor="middle" fill="#f89820" font-size="8" font-weight="bold">&#9733; 34</text>
 </g>
 <g>
   <animateMotion dur="175s" repeatCount="indefinite" begin="-61.5s" rotate="0" path="M692,360 A332,332 0 1,1 28,360 A332,332 0 1,1 692,360"/>
-  <circle cx="0" cy="0" r="27.0" fill="#3178c6" opacity="0.12"/><circle cx="0" cy="0" r="24.0" fill="#3178c6" opacity="0.85" filter="url(#glow)"/><circle cx="-6" cy="-6" r="7" fill="#fff" opacity="0.1"/>
-  <text x="0" y="40.0" text-anchor="middle" fill="#a0b8d0" font-size="8" font-weight="600">OpenSearch-Dashboa</text>
-  <text x="0" y="51.0" text-anchor="middle" fill="#3178c6" font-size="8" font-weight="bold">&#9733; 2.1k</text>
+  <circle cx="0" cy="0" r="12.333333333333334" fill="#118ab2" opacity="0.12"/><circle cx="0" cy="0" r="9.333333333333334" fill="#118ab2" opacity="0.85" filter="url(#glow)"/><circle cx="-2" cy="-2" r="3" fill="#fff" opacity="0.1"/>
+  <text x="0" y="25.333333333333336" text-anchor="middle" fill="#a0b8d0" font-size="8" font-weight="600">opensearch-dashboa</text>
+  <text x="0" y="36.333333333333336" text-anchor="middle" fill="#118ab2" font-size="8" font-weight="bold">&#9733; 18</text>
 </g>
 <a xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://github.com/opensearch-project" target="_blank">
 <circle cx="670" cy="660" r="18" fill="none" stroke="#8338ec" stroke-width="1.5" opacity="0.15"><animateTransform attributeName="transform" type="rotate" from="0 670 660" to="360 670 660" dur="3.0s" repeatCount="indefinite"/><animate attributeName="r" values="18;20;18" dur="4.0s" repeatCount="indefinite"/></circle>
@@ -527,5 +527,5 @@
 <circle cx="670" cy="660" r="12" fill="none" stroke="#8338ec" stroke-width="1.5" opacity="0.25"><animateTransform attributeName="transform" type="rotate" from="0 670 660" to="360 670 660" dur="4.0s" repeatCount="indefinite"/><animate attributeName="r" values="12;14;12" dur="5.0s" repeatCount="indefinite"/></circle>
 <circle cx="670" cy="660" r="9" fill="none" stroke="#8338ec" stroke-width="1.5" opacity="0.30000000000000004"><animateTransform attributeName="transform" type="rotate" from="0 670 660" to="-360 670 660" dur="4.5s" repeatCount="indefinite"/><animate attributeName="r" values="9;11;9" dur="5.5s" repeatCount="indefinite"/></circle>
 <circle cx="670" cy="660" r="6" fill="#8338ec" opacity="0.3" filter="url(#glow)"><animate attributeName="r" values="4;8;4" dur="2s" repeatCount="indefinite"/></circle><circle cx="670" cy="660" r="3" fill="#c0a0ff" opacity="0.5"/><text x="670" y="688" text-anchor="middle" fill="#8338ec" font-size="7" opacity="0.6">explore ↗</text></a>
-<circle cx="60" cy="680" r="4" fill="#f89820"/><text x="68" y="683" fill="#5a7a9a" font-size="8">Java</text><circle cx="114" cy="680" r="4" fill="#3178c6"/><text x="122" y="683" fill="#5a7a9a" font-size="8">TypeScript</text><circle cx="204" cy="680" r="4" fill="#888"/><text x="212" y="683" fill="#5a7a9a" font-size="8">JavaScript</text><text x="360" y="708" text-anchor="middle" fill="#1a2a3a" font-size="8">Jun 27, 2026 13:59 UTC</text>
+<circle cx="60" cy="680" r="4" fill="#f89820"/><text x="68" y="683" fill="#5a7a9a" font-size="8">Java</text><circle cx="114" cy="680" r="4" fill="#3178c6"/><text x="122" y="683" fill="#5a7a9a" font-size="8">TypeScript</text><circle cx="204" cy="680" r="4" fill="#888"/><text x="212" y="683" fill="#5a7a9a" font-size="8">JavaScript</text><text x="360" y="708" text-anchor="middle" fill="#1a2a3a" font-size="8">Jun 27, 2026 19:39 UTC</text>
 </svg>
