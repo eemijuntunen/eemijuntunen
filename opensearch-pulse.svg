@@ -219,24 +219,24 @@
     </circle>
     <text x="360" y="294" text-anchor="middle" fill="#00e5ff" font-size="12" font-weight="bold" letter-spacing="1.5">OpenSearch</text>
     <text x="360" y="312" text-anchor="middle" fill="#3a6a8a" font-size="8" letter-spacing="3">ECOSYSTEM</text>
-  <circle cx="360.0" cy="125.0" r="46" fill="#00e5a0" opacity="0.06" filter="url(#glow)"/>
-<circle cx="360.0" cy="125.0" r="43.7" fill="none" stroke="#00e5a0" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="45.8 228.9" transform="rotate(-90 360.0 125.0)" opacity="0.8"><animateTransform attributeName="transform" type="rotate" from="-90 360.0 125.0" to="270 360.0 125.0" dur="20s" repeatCount="indefinite"/></circle>
-<circle cx="360.0" cy="125.0" r="47.7" fill="none" stroke="#3a86ff" stroke-width="2" stroke-linecap="round" stroke-dasharray="235.0 64.8" transform="rotate(-90 360.0 125.0)" opacity="0.8"><animateTransform attributeName="transform" type="rotate" from="-90 360.0 125.0" to="270 360.0 125.0" dur="20s" repeatCount="indefinite"/></circle>
-<circle cx="360.0" cy="125.0" r="51.7" fill="none" stroke="#ff6b6b" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="173.3 151.6" transform="rotate(-90 360.0 125.0)" opacity="0.8"><animateTransform attributeName="transform" type="rotate" from="-90 360.0 125.0" to="270 360.0 125.0" dur="20s" repeatCount="indefinite"/></circle>
-<circle cx="360.0" cy="125.0" r="36" fill="url(#bg0)" filter="url(#glow)"><animate attributeName="r" values="36;37.2;36" dur="5.0s" repeatCount="indefinite"/></circle>
-<circle cx="351.1" cy="116.1" r="12.5" fill="#fff" opacity="0.08"/>
-<text x="360.0" y="126.0" text-anchor="middle" fill="#fff" font-size="10" font-weight="bold" dominant-baseline="middle">&#9733; 165</text>
-<text x="360.0" y="188.7" text-anchor="middle" fill="#8aa0b8" font-size="9" font-weight="600">opensearch-java</text>
-<rect x="324.0" y="193.7" width="72" height="14" rx="7" fill="#0d1a2a" stroke="#1a2a44" stroke-width="0.5"/><text x="360.0" y="204.7" text-anchor="middle" font-size="8.5" font-weight="bold"><tspan fill="#00e5a0">2</tspan><tspan fill="#3a5a6a" font-size="7"> c  </tspan><tspan fill="#ff6b6b">8</tspan><tspan fill="#3a5a6a" font-size="7"> i  </tspan><tspan fill="#3a86ff">29</tspan><tspan fill="#3a5a6a" font-size="7"> pr</tspan></text>
-<circle cx="489.3" cy="158.4" r="33" fill="#00b4d8" opacity="0.06" filter="url(#glow)"/>
-<circle cx="489.3" cy="158.4" r="31.3" fill="none" stroke="#00e5a0" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="16.4 180.5" transform="rotate(-90 489.3 158.4)" opacity="0.8"><animateTransform attributeName="transform" type="rotate" from="-90 489.3 158.4" to="270 489.3 158.4" dur="20s" repeatCount="indefinite"/></circle>
-<circle cx="489.3" cy="158.4" r="35.3" fill="none" stroke="#3a86ff" stroke-width="2" stroke-linecap="round" stroke-dasharray="204.0 18.0" transform="rotate(-90 489.3 158.4)" opacity="0.8"><animateTransform attributeName="transform" type="rotate" from="-90 489.3 158.4" to="270 489.3 158.4" dur="20s" repeatCount="indefinite"/></circle>
-<circle cx="489.3" cy="158.4" r="39.3" fill="none" stroke="#ff6b6b" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="131.8 115.3" transform="rotate(-90 489.3 158.4)" opacity="0.8"><animateTransform attributeName="transform" type="rotate" from="-90 489.3 158.4" to="270 489.3 158.4" dur="20s" repeatCount="indefinite"/></circle>
-<circle cx="489.3" cy="158.4" r="23" fill="url(#bg1)" filter="url(#glow)"><animate attributeName="r" values="23;24.8;23" dur="5.0s" repeatCount="indefinite"/></circle>
-<circle cx="483.5" cy="152.6" r="8.2" fill="#fff" opacity="0.08"/>
-<text x="489.3" y="159.4" text-anchor="middle" fill="#fff" font-size="10" font-weight="bold" dominant-baseline="middle">&#9733; 35</text>
-<text x="489.3" y="209.8" text-anchor="middle" fill="#8aa0b8" font-size="9" font-weight="600">agent-health</text>
-<rect x="453.3" y="214.8" width="72" height="14" rx="7" fill="#0d1a2a" stroke="#1a2a44" stroke-width="0.5"/><text x="489.3" y="225.8" text-anchor="middle" font-size="8.5" font-weight="bold"><tspan fill="#00e5a0">1</tspan><tspan fill="#3a5a6a" font-size="7"> c  </tspan><tspan fill="#ff6b6b">8</tspan><tspan fill="#3a5a6a" font-size="7"> i  </tspan><tspan fill="#3a86ff">34</tspan><tspan fill="#3a5a6a" font-size="7"> pr</tspan></text>
+  <circle cx="360.0" cy="125.0" r="33" fill="#00e5a0" opacity="0.06" filter="url(#glow)"/>
+<circle cx="360.0" cy="125.0" r="31.3" fill="none" stroke="#00e5a0" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="16.4 180.5" transform="rotate(-90 360.0 125.0)" opacity="0.8"><animateTransform attributeName="transform" type="rotate" from="-90 360.0 125.0" to="270 360.0 125.0" dur="20s" repeatCount="indefinite"/></circle>
+<circle cx="360.0" cy="125.0" r="35.3" fill="none" stroke="#3a86ff" stroke-width="2" stroke-linecap="round" stroke-dasharray="204.0 18.0" transform="rotate(-90 360.0 125.0)" opacity="0.8"><animateTransform attributeName="transform" type="rotate" from="-90 360.0 125.0" to="270 360.0 125.0" dur="20s" repeatCount="indefinite"/></circle>
+<circle cx="360.0" cy="125.0" r="39.3" fill="none" stroke="#ff6b6b" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="164.8 82.4" transform="rotate(-90 360.0 125.0)" opacity="0.8"><animateTransform attributeName="transform" type="rotate" from="-90 360.0 125.0" to="270 360.0 125.0" dur="20s" repeatCount="indefinite"/></circle>
+<circle cx="360.0" cy="125.0" r="23" fill="url(#bg0)" filter="url(#glow)"><animate attributeName="r" values="23;24.8;23" dur="5.0s" repeatCount="indefinite"/></circle>
+<circle cx="354.2" cy="119.2" r="8.2" fill="#fff" opacity="0.08"/>
+<text x="360.0" y="126.0" text-anchor="middle" fill="#fff" font-size="10" font-weight="bold" dominant-baseline="middle">&#9733; 35</text>
+<text x="360.0" y="176.3" text-anchor="middle" fill="#8aa0b8" font-size="9" font-weight="600">agent-health</text>
+<rect x="324.0" y="181.3" width="72" height="14" rx="7" fill="#0d1a2a" stroke="#1a2a44" stroke-width="0.5"/><text x="360.0" y="192.3" text-anchor="middle" font-size="8.5" font-weight="bold"><tspan fill="#00e5a0">1</tspan><tspan fill="#3a5a6a" font-size="7"> c  </tspan><tspan fill="#ff6b6b">10</tspan><tspan fill="#3a5a6a" font-size="7"> i  </tspan><tspan fill="#3a86ff">34</tspan><tspan fill="#3a5a6a" font-size="7"> pr</tspan></text>
+<circle cx="489.3" cy="158.4" r="46" fill="#00b4d8" opacity="0.06" filter="url(#glow)"/>
+<circle cx="489.3" cy="158.4" r="43.7" fill="none" stroke="#00e5a0" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="45.8 228.9" transform="rotate(-90 489.3 158.4)" opacity="0.8"><animateTransform attributeName="transform" type="rotate" from="-90 489.3 158.4" to="270 489.3 158.4" dur="20s" repeatCount="indefinite"/></circle>
+<circle cx="489.3" cy="158.4" r="47.7" fill="none" stroke="#3a86ff" stroke-width="2" stroke-linecap="round" stroke-dasharray="235.0 64.8" transform="rotate(-90 489.3 158.4)" opacity="0.8"><animateTransform attributeName="transform" type="rotate" from="-90 489.3 158.4" to="270 489.3 158.4" dur="20s" repeatCount="indefinite"/></circle>
+<circle cx="489.3" cy="158.4" r="51.7" fill="none" stroke="#ff6b6b" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="173.3 151.6" transform="rotate(-90 489.3 158.4)" opacity="0.8"><animateTransform attributeName="transform" type="rotate" from="-90 489.3 158.4" to="270 489.3 158.4" dur="20s" repeatCount="indefinite"/></circle>
+<circle cx="489.3" cy="158.4" r="36" fill="url(#bg1)" filter="url(#glow)"><animate attributeName="r" values="36;37.2;36" dur="5.0s" repeatCount="indefinite"/></circle>
+<circle cx="480.4" cy="149.5" r="12.5" fill="#fff" opacity="0.08"/>
+<text x="489.3" y="159.4" text-anchor="middle" fill="#fff" font-size="10" font-weight="bold" dominant-baseline="middle">&#9733; 165</text>
+<text x="489.3" y="222.1" text-anchor="middle" fill="#8aa0b8" font-size="9" font-weight="600">opensearch-java</text>
+<rect x="453.3" y="227.1" width="72" height="14" rx="7" fill="#0d1a2a" stroke="#1a2a44" stroke-width="0.5"/><text x="489.3" y="238.1" text-anchor="middle" font-size="8.5" font-weight="bold"><tspan fill="#00e5a0">2</tspan><tspan fill="#3a5a6a" font-size="7"> c  </tspan><tspan fill="#ff6b6b">8</tspan><tspan fill="#3a5a6a" font-size="7"> i  </tspan><tspan fill="#3a86ff">29</tspan><tspan fill="#3a5a6a" font-size="7"> pr</tspan></text>
 <circle cx="569.2" cy="245.9" r="34" fill="#8338ec" opacity="0.06" filter="url(#glow)"/>
 <circle cx="569.2" cy="245.9" r="32.0" fill="none" stroke="#00e5a0" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="16.8 184.3" transform="rotate(-90 569.2 245.9)" opacity="0.8"><animateTransform attributeName="transform" type="rotate" from="-90 569.2 245.9" to="270 569.2 245.9" dur="20s" repeatCount="indefinite"/></circle>
 <circle cx="569.2" cy="245.9" r="36.0" fill="none" stroke="#3a86ff" stroke-width="2" stroke-linecap="round" stroke-dasharray="12.2 214.0" transform="rotate(-90 569.2 245.9)" opacity="0.8"><animateTransform attributeName="transform" type="rotate" from="-90 569.2 245.9" to="270 569.2 245.9" dur="20s" repeatCount="indefinite"/></circle>
@@ -315,5 +315,5 @@
     <line x1="268" y1="588" x2="288" y2="588" stroke="#ff6b6b" stroke-width="1.5" stroke-linecap="round"/>
     <text x="293" y="592" fill="#5a7a9a" font-size="9">issues</text>
     <text x="345" y="592" fill="#2a4a6a" font-size="9">·  ring fill = proportion of most active  ·  bubble = stars</text>
-  <text x="360" y="628" text-anchor="middle" fill="#1a2a3a" font-size="8">Auto-updated every 6 hours  ·  Sep 27, 2026 11:52 UTC  ·  github.com/opensearch-project</text>
+  <text x="360" y="628" text-anchor="middle" fill="#1a2a3a" font-size="8">Auto-updated every 6 hours  ·  Sep 27, 2026 16:50 UTC  ·  github.com/opensearch-project</text>
 </svg>
